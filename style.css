@@ -22,19 +22,12 @@ a {
     50%{scale: 70%;};
     100%{scale: 100%;};
 }
-h1{
-    font-size:500%;
-}
 #hd{
     align-items: center;
     margin-top: 10%;
-    margin-left: 30%;
-    margin-right: 30%;
     display: flex;
-    -ms-flex-align: center;
     justify-content: center;
     align-items: center;
-    
 }
 #hd h6{
     color: yellow;
@@ -42,14 +35,20 @@ h1{
     font-style: normal;
     font-size: 3vw;
     position: absolute;
-    right: 27%;
-    top: 15%;
+    left: 60vw;
+    top: 8vw;
     transform: rotateZ(340deg);
     animation-name: splash;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     
+}
+.navbarItem i{
+    padding-left: 0.5vw;
+}
+#hd img{
+    height: 8vw;
 }
 #dol {
     width: 32.7%;
@@ -70,6 +69,12 @@ h1{
     justify-self: center;
     justify-content: center;
 }
+#aktualizacje {
+    width: 30%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
 
 #regulamin {
     width: 30%;
@@ -80,9 +85,10 @@ h1{
 .navbarItem {
     font-size: 1.5vw;
     background-size:contain;
+    background-repeat: true;
     background-image: url(res/bgbtn.png);
     image-rendering: pixelated;
-    background-size: 400%;
+    background-size: 70vw;
     padding: 1vw;
     margin: 0.5%;
     border: black solid 0.2vw;
@@ -93,7 +99,12 @@ h1{
 .navbarItem:hover{
     border: hsl(0, 0%, 90%) solid 0.2vw;
 }
-
+#regulaminTresc{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    max-width: 80%;
+}
 #bd{
     max-width: 1000px;
     margin-left: 20%;
@@ -108,16 +119,10 @@ h1{
     border-color: hsl(222, 18%, 17%);
 }
 #articles{
-    width: 85%;
+
     position: sticky;
     left: 0px;
-    border-width: 0px;
-    border-style: solid;
-    border-right-width: 2px;
     padding: 10px;
-}
-#art{
-    background-color: hsl(222, 11%, 5%);
 }
 #ahd{
     background-color: hsl(222, 11%, 0%);
@@ -125,6 +130,9 @@ h1{
     padding: 5px;
     padding-bottom: 2px;
     padding-top: 2px;
+}
+#art{
+    background-color: hsl(222, 11%, 5%);
 }
 #aimg{
     width: 96%;
@@ -140,14 +148,4 @@ h1{
     background-color: black;
     margin-left: 2%;
     font-size: 70%;
-}
-#social{
-    width: 15%;
-    position:sticky;
-    left: 70%;
-    padding: 10px;
-}
-footer {
-    background-color: hsl(222, 11%, 10%);
-
 }
