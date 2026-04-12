@@ -1,151 +1,307 @@
-body{
-    background-color: #272a31;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(res/wedristlo.png);
-    background-repeat:no-repeat;
-    background-position-x: center;
-    background-size: 80%;
-    color: white;
-    margin: 0px;
-    
-}
-a {
-    color: white;
-    font-style: normal;
-    text-decoration: none;
-}
-@font-face {
-    font-family: mc;
-    src: url(Minecraft.ttf);
-}
-@keyframes splash {
-    50%{scale: 70%;};
-    100%{scale: 100%;};
-}
-#hd{
-    align-items: center;
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#hd h6{
-    color: yellow;
-    font-family: 'mc';
-    font-style: normal;
-    font-size: 3vw;
-    position: absolute;
-    left: 60vw;
-    top: 8vw;
-    transform: rotateZ(340deg);
-    animation-name: splash;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    
-}
-.navbarItem i{
-    padding-left: 0.5vw;
-}
-#hd img{
-    height: 8vw;
-}
-#dol {
-    width: 32.7%;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-}
-#navbar {
-    margin-top: 5vw;
-    
-}
-#te {
-    width: 50%;
-}
-#ogloszenia {
-    width: 30%;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-}
-#aktualizacje {
-    width: 30%;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
+@media (orientation: landscape) {
+    body{
+        background-color: #272a31;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(res/wedristlo.png);
+        background-repeat:no-repeat;
+        background-position-x: center;
+        background-size: 80%;
+        color: white;
+        margin: 0px;
+        
+    }
+    a {
+        color: white;
+        font-style: normal;
+        text-decoration: none;
+    }
+    @font-face {
+        font-family: mc;
+        src: url(Minecraft.otf);
+    }
+    @keyframes splash {
+        50%{scale: 70%;};
+        100%{scale: 100%;};
+    }
+    #hd{
+        align-items: center;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hd h6{
+        color: yellow;
+        font-family: 'mc';
+        font-style: normal;
+        font-size: 3vw;
+        position: absolute;
+        left: 60vw;
+        top: 8vw;
+        transform: rotateZ(340deg);
+        animation-name: splash;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        
+    }
+    .navbarItem i{
+        padding-left: 0.5vw;
+    }
+    #hd img{
+        height: 8vw;
+    }
+    #dol {
+        width: 32.7%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #navbar {
+        margin-top: 5vw;
+        
+    }
+    #te {
+        width: 50%;
+    }
+    #ogloszenia {
+        width: 30%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #aktualizacje {
+        width: 30%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+
+    #regulamin {
+        width: 30%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    .navbarItem {
+        font-size: 1.5vw;
+        background-size:contain;
+        background-repeat: true;
+        background-image: url(res/bgbtn.png);
+        image-rendering: pixelated;
+        background-size: 70vw;
+        padding: 1vw;
+        margin: 0.5%;
+        border: black solid 0.2vw;
+        text-align: center;
+        font-family: mc;
+        text-shadow: 0.15vw 0.15vw hsl(0 0 10%) ;
+    }
+    .navbarItem:hover{
+        border: hsl(0, 0%, 90%) solid 0.2vw;
+    }
+    #regulaminTresc{
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        max-width: 80%;
+    }
+    #bd{
+        max-width: 1000px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 10%;
+        margin-top: 2%;
+        background-color: hsl(222, 11%, 10%);
+        display: flex;
+        justify-self: center;
+        border-style:solid;
+        border-radius: 10px;
+        border-color: hsl(222, 18%, 17%);
+    }
+    #articles{
+
+        position: sticky;
+        left: 0px;
+        padding: 10px;
+    }
+    #ahd{
+        background-color: hsl(222, 11%, 0%);
+        font-size: 150%;
+        padding: 5px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+    #art{
+        background-color: hsl(222, 11%, 5%);
+    }
+    #aimg{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-top: 0px;
+    }
+    #atxt{
+        margin-left: 2%;
+    }
+    #aft{
+        overflow: hidden;
+        background-color: black;
+        margin-left: 2%;
+        font-size: 70%;
+    }
 }
 
-#regulamin {
-    width: 30%;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-}
-.navbarItem {
-    font-size: 1.5vw;
-    background-size:contain;
-    background-repeat: true;
-    background-image: url(res/bgbtn.png);
-    image-rendering: pixelated;
-    background-size: 70vw;
-    padding: 1vw;
-    margin: 0.5%;
-    border: black solid 0.2vw;
-    text-align: center;
-    font-family: mc;
-    text-shadow: 0.2vw 0.2vw hsl(0 0 10%) ;
-}
-.navbarItem:hover{
-    border: hsl(0, 0%, 90%) solid 0.2vw;
-}
-#regulaminTresc{
-    display: flex;
-    justify-self: center;
-    flex-direction: column;
-    max-width: 80%;
-}
-#bd{
-    max-width: 1000px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 10%;
-    margin-top: 2%;
-    background-color: hsl(222, 11%, 10%);
-    display: flex;
-    justify-self: center;
-    border-style:solid;
-    border-radius: 10px;
-    border-color: hsl(222, 18%, 17%);
-}
-#articles{
+@media (orientation: portrait) {
+    body{
+        background-color: #272a31;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(res/wedristlo.png);
+        background-repeat:no-repeat;
+        background-position-x: center;
+        background-size: 100%;
+        color: white;
+        margin: 0px;
+        
+    }
+    a {
+        color: white;
+        font-style: normal;
+        text-decoration: none;
+    }
+    @font-face {
+        font-family: mc;
+        src: url(Minecraft.ttf);
+    }
+    @keyframes splash {
+        50%{scale: 70%;};
+        100%{scale: 100%;};
+    }
+    #hd{
+        align-items: center;
+        margin-top: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hd img{
+        height: 15vw;
+    }
+    #hd h6{
+        color: yellow;
+        font-family: 'mc';
+        font-style: normal;
+        font-size: 6vw;
+        position: absolute;
+        left: 60vw;
+        top: 7vw;
+        transform: rotateZ(340deg);
+        animation-name: splash;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        
+    }
+    .navbarItem i{
+        padding-left: 0.5vw;
+    }
+    #dol {
+        width: 88.3%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #navbar {
+        margin-top: 8vw;
+        
+    }
+    #te {
+        width: 50%;
+    }
+    #ogloszenia {
+        width: 80%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #aktualizacje {
+        width: 80%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
 
-    position: sticky;
-    left: 0px;
-    padding: 10px;
+    #regulamin {
+        width: 80%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    .navbarItem {
+        font-size: 4vw;
+        background-size:contain;
+        background-repeat: true;
+        background-image: url(res/bgbtn.png);
+        image-rendering: pixelated;
+        background-size: 100vw;
+        padding: 2vw;
+        margin: 2vw;
+        border: black solid 0.7vw;
+        text-align: center;
+        font-family: mc;
+        text-shadow: 0.5vw 0.5vw hsl(0 0 10%) ;
+    }
+    .navbarItem:hover{
+        border: hsl(0, 0%, 90%) solid 0.7vw;
+    }
+    #regulaminTresc{
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        max-width: 80%;
+    }
+    #bd{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        margin-top: 2%;
+        background-color: hsl(222, 11%, 10%);
+        display: flex;
+        justify-self: center;
+        border-style:solid;
+        border-radius: 10px;
+        border-color: hsl(222, 18%, 17%);
+    }
+    #articles{
+
+        position: sticky;
+        left: 0px;
+        padding: 10px;
+    }
+    #ahd{
+        background-color: hsl(222, 11%, 0%);
+        font-size: 150%;
+        padding: 5px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+    #art{
+        background-color: hsl(222, 11%, 5%);
+    }
+    #aimg{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-top: 0px;
+    }
+    #atxt{
+        margin-left: 2%;
+    }
+    #aft{
+        overflow: hidden;
+        background-color: black;
+        margin-left: 2%;
+        font-size: 70%;
+    }
 }
-#ahd{
-    background-color: hsl(222, 11%, 0%);
-    font-size: 150%;
-    padding: 5px;
-    padding-bottom: 2px;
-    padding-top: 2px;
-}
-#art{
-    background-color: hsl(222, 11%, 5%);
-}
-#aimg{
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-top: 0px;
-}
-#atxt{
-    margin-left: 2%;
-}
-#aft{
-    overflow: hidden;
-    background-color: black;
-    margin-left: 2%;
-    font-size: 70%;
-}
+
