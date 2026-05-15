@@ -23,6 +23,32 @@
         justify-self: center;
         justify-content: center;
     }
+    #article {
+    display: flex;
+        justify-self: center;
+        flex-direction: column;
+        font-family: mc;
+        background-color: rgb(119, 119, 119);
+        max-width: 80%;
+        min-width: 60%;
+        padding: 2vw;
+        margin-top: 4vw;
+        margin-bottom: 5vw;
+        text-shadow: 4px 4px hsl(0 0 10%);
+        box-shadow:
+                -5px 0 0 0 rgb(78, 78, 78),
+                 5px 0 0 0 rgb(140, 140, 140),
+                 0 5px 0 0 rgb(78, 78, 78),
+                 0 -5px 0 0 rgb(140, 140, 140),
+                -10px 0 0 0 black,
+                 10px 0 0 0 black,
+                 0 -10px 0 0 black,
+                 0 10px 0 0 black,
+                 5px 5px 0 0 black,
+                 -5px 5px 0 0 black,
+                 5px -5px 0 0 black,
+                 -5px -5px 0 0 black;
+    }
     #czasomierz {
         font-size: 4vw;
         margin-top: 9vw;
@@ -59,10 +85,11 @@
         font-family: mc;
         background-color: rgb(119, 119, 119);
         max-width: 80%;
+        min-width: 60%;
         padding: 2vw;
         margin-top: 4vw;
         margin-bottom: 5vw;
-        text-shadow: 0.14vw 0.14vw hsl(0 0 10%);
+        text-shadow: 4px 4px hsl(0 0 10%);
         box-shadow:
                 -5px 0 0 0 rgb(78, 78, 78),
                  5px 0 0 0 rgb(140, 140, 140),
@@ -127,6 +154,32 @@
                  5px -5px 0 0 black,
                  -5px -5px 0 0 black;
     }
+    #article {
+    display: flex;
+        justify-self: center;
+        flex-direction: column;
+        font-family: mc;
+        background-color: rgb(119, 119, 119);
+        max-width: 80%;
+        min-width: 60%;
+        padding: 2vw;
+        margin-top: 4vw;
+        margin-bottom: 5vw;
+        text-shadow: 3px 3px hsl(0 0 10%);
+        box-shadow:
+                -5px 0 0 0 rgb(78, 78, 78),
+                 5px 0 0 0 rgb(140, 140, 140),
+                 0 5px 0 0 rgb(78, 78, 78),
+                 0 -5px 0 0 rgb(140, 140, 140),
+                -10px 0 0 0 black,
+                 10px 0 0 0 black,
+                 0 -10px 0 0 black,
+                 0 10px 0 0 black,
+                 5px 5px 0 0 black,
+                 -5px 5px 0 0 black,
+                 5px -5px 0 0 black,
+                 -5px -5px 0 0 black;
+    }
     #regulamin {
         width: 80%;
         display: flex;
@@ -140,10 +193,12 @@
         font-family: mc;
         background-color: rgb(119, 119, 119);
         max-width: 80%;
+        min-width: 60%;
         padding: 2vw;
         margin-top: 4vw;
         margin-bottom: 5vw;
-        text-shadow: 0.30vw 0.30vw hsl(0 0 10%);
+        min-width: 60%;
+        text-shadow: 3px 3px hsl(0 0 10%);
         box-shadow:
                 -5px 0 0 0 rgb(78, 78, 78),
                  5px 0 0 0 rgb(140, 140, 140),
