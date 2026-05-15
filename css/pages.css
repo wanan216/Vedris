@@ -1,0 +1,161 @@
+@media (orientation: landscape) {
+    #ogloszenia {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vw;
+    }
+    #aktualizacje {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2vw;
+    }
+    #ogloszeniaiaktualizacje {
+        width: 30%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #nasze_tryby {
+        width: 30%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #czasomierz {
+        font-size: 4vw;
+        margin-top: 9vw;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        background-color: rgb(119, 119, 119);
+        padding: 2vw;
+        text-shadow: 0.30vw 0.30vw hsl(0 0 10%);
+        box-shadow:
+                -5px 0 0 0 rgb(78, 78, 78),
+                 5px 0 0 0 rgb(140, 140, 140),
+                 0 5px 0 0 rgb(78, 78, 78),
+                 0 -5px 0 0 rgb(140, 140, 140),
+                -10px 0 0 0 black,
+                 10px 0 0 0 black,
+                 0 -10px 0 0 black,
+                 0 10px 0 0 black,
+                 5px 5px 0 0 black,
+                 -5px 5px 0 0 black,
+                 5px -5px 0 0 black,
+                 -5px -5px 0 0 black;
+    }
+    #regulamin {
+        width: 30%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #regulaminTresc {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        font-family: mc;
+        background-color: rgb(119, 119, 119);
+        max-width: 80%;
+        padding: 2vw;
+        margin-top: 4vw;
+        margin-bottom: 5vw;
+        text-shadow: 0.14vw 0.14vw hsl(0 0 10%);
+        box-shadow:
+                -5px 0 0 0 rgb(78, 78, 78),
+                 5px 0 0 0 rgb(140, 140, 140),
+                 0 5px 0 0 rgb(78, 78, 78),
+                 0 -5px 0 0 rgb(140, 140, 140),
+                -10px 0 0 0 black,
+                 10px 0 0 0 black,
+                 0 -10px 0 0 black,
+                 0 10px 0 0 black,
+                 5px 5px 0 0 black,
+                 -5px 5px 0 0 black,
+                 5px -5px 0 0 black,
+                 -5px -5px 0 0 black;
+    }
+}
+
+@media (orientation: portrait) {
+    #ogloszenia {
+        width: 80%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #aktualizacje {
+        width: 80%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #ogloszeniaiaktualizacje {
+        width: 80%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #nasze_tryby {
+        width: 80%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #czasomierz {
+        font-size: 10vw;
+        margin-top: 15vw;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        background-color: rgb(119, 119, 119);
+        padding: 4vw;
+        text-shadow: 0.60vw 0.60vw hsl(0 0 10%);
+        box-shadow:
+                -5px 0 0 0 rgb(78, 78, 78),
+                 5px 0 0 0 rgb(140, 140, 140),
+                 0 5px 0 0 rgb(78, 78, 78),
+                 0 -5px 0 0 rgb(140, 140, 140),
+                -10px 0 0 0 black,
+                 10px 0 0 0 black,
+                 0 -10px 0 0 black,
+                 0 10px 0 0 black,
+                 5px 5px 0 0 black,
+                 -5px 5px 0 0 black,
+                 5px -5px 0 0 black,
+                 -5px -5px 0 0 black;
+    }
+    #regulamin {
+        width: 80%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #regulaminTresc {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        font-family: mc;
+        background-color: rgb(119, 119, 119);
+        max-width: 80%;
+        padding: 2vw;
+        margin-top: 4vw;
+        margin-bottom: 5vw;
+        text-shadow: 0.30vw 0.30vw hsl(0 0 10%);
+        box-shadow:
+                -5px 0 0 0 rgb(78, 78, 78),
+                 5px 0 0 0 rgb(140, 140, 140),
+                 0 5px 0 0 rgb(78, 78, 78),
+                 0 -5px 0 0 rgb(140, 140, 140),
+                -10px 0 0 0 black,
+                 10px 0 0 0 black,
+                 0 -10px 0 0 black,
+                 0 10px 0 0 black,
+                 5px 5px 0 0 black,
+                 -5px 5px 0 0 black,
+                 5px -5px 0 0 black,
+                 -5px -5px 0 0 black;
+    }
+}

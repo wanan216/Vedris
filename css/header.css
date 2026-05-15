@@ -1,0 +1,53 @@
+@media (orientation: landscape) {
+    #hd {
+        align-items: center;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hd h6 {
+        color: yellow;
+        font-family: 'mc';
+        font-style: normal;
+        font-size: 1.2vw;
+        position: absolute;
+        left: 65vw;
+        top: 12vw;
+        transform: translate(-50%, -50%) rotateZ(340deg);
+        animation-name: splash;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    #hd img {
+        height: 8vw;
+    }
+}
+
+@media (orientation: portrait) {
+    #hd {
+        align-items: center;
+        margin-top: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hd h6 {
+        color: yellow;
+        font-family: 'mc';
+        font-style: normal;
+        font-size: 6vw;
+        position: absolute;
+        left: 75vw;
+        top: 7vw;
+        transform: translate(-50%, -50%) rotateZ(340deg);
+        animation-name: splash;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    #hd img {
+        height: 15vw;
+    }
+}

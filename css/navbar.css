@@ -1,0 +1,69 @@
+@media (orientation: landscape) {
+    .navbarItem i {
+        padding-left: 0.5vw;
+    }
+    #dol {
+        width: 32.7%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #navbar {
+        margin-top: 5vw;
+    }
+    #te {
+        width: 50%;
+    }
+    .navbarItem {
+        font-size: 1.5vw;
+        background-size: contain;
+        background-repeat: repeat;
+        background-image: url(../img/bgbtn.png);
+        image-rendering: pixelated;
+        background-size: 70vw;
+        padding: 1vw;
+        margin: 0.5%;
+        border: black solid 0.2vw;
+        text-align: center;
+        font-family: mc;
+        text-shadow: 0.15vw 0.15vw hsl(0 0 10%);
+    }
+    .navbarItem:hover {
+        border: hsl(0, 0%, 90%) solid 0.2vw;
+    }
+}
+
+@media (orientation: portrait) {
+    .navbarItem i {
+        padding-left: 0.5vw;
+    }
+    #dol {
+        width: 88.3%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #navbar {
+        margin-top: 8vw;
+    }
+    #te {
+        width: 50%;
+    }
+    .navbarItem {
+        font-size: 4vw;
+        background-size: contain;
+        background-repeat: repeat;
+        background-image: url(../img/bgbtn.png);
+        image-rendering: pixelated;
+        background-size: 100vw;
+        padding: 2vw;
+        margin: 2vw;
+        border: black solid 0.7vw;
+        text-align: center;
+        font-family: mc;
+        text-shadow: 0.5vw 0.5vw hsl(0 0 10%);
+    }
+    .navbarItem:hover {
+        border: hsl(0, 0%, 90%) solid 0.7vw;
+    }
+}
