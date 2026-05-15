@@ -1,7 +1,7 @@
 @media (orientation: landscape) {
     body{
         background-color: #272a31;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: mc, Arial, Helvetica, sans-serif;
         background-image: url(res/wedristlo.png);
         background-repeat:no-repeat;
         background-position-x: center;
@@ -17,10 +17,11 @@
     }
     @font-face {
         font-family: mc;
-        src: url(Minecraft.otf);
+        src: url(better-minecraft.otf);
+
     }
     @keyframes splash {
-        50%{scale: 70%;};
+        50%{scale: 80%;};
         100%{scale: 100%;};
     }
     #hd{
@@ -34,13 +35,13 @@
         color: yellow;
         font-family: 'mc';
         font-style: normal;
-        font-size: 3vw;
+        font-size: 1.2vw;
         position: absolute;
-        left: 60vw;
-        top: 8vw;
-        transform: rotateZ(340deg);
+        left: 65vw;
+        top: 12vw;
+        transform: translate(-50%, -50%) rotateZ(340deg);
         animation-name: splash;
-        animation-duration: 1.5s;
+        animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
         
@@ -65,18 +66,52 @@
         width: 50%;
     }
     #ogloszenia {
-        width: 30%;
+        width: 100%;
         display: flex;
-        justify-self: center;
         justify-content: center;
+        margin-top: 1vw;
     }
     #aktualizacje {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2vw;
+    }
+     #ogloszeniaiaktualizacje {
         width: 30%;
         display: flex;
         justify-self: center;
         justify-content: center;
     }
-
+    #nasze_tryby {
+        width: 30%;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+    }
+    #czasomierz {
+        font-size: 4vw;
+        margin-top: 9vw;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        background-color: rgb(119, 119, 119);
+        padding: 2vw;
+        text-shadow: 0.30vw 0.30vw hsl(0 0 10%) ;
+        box-shadow: 
+                -5px 0 0 0 rgb(78, 78, 78),
+                 5px 0 0 0 rgb(140, 140, 140),
+                 0 5px 0 0 rgb(78, 78, 78),
+                 0 -5px 0 0 rgb(140, 140, 140),  
+                -10px 0 0 0 black,
+                 10px 0 0 0 black,
+                 0 -10px 0 0 black,
+                 0 10px 0 0 black,
+                 5px 5px 0 0 black,
+                 -5px 5px 0 0 black,
+                 5px -5px 0 0 black,
+                 -5px -5px 0 0 black;
+    }
     #regulamin {
         width: 30%;
         display: flex;
@@ -104,7 +139,27 @@
         display: flex;
         justify-self: center;
         flex-direction: column;
+        font-family: mc;
+        background-color: rgb(119, 119, 119);
         max-width: 80%;
+        padding: 2vw;
+        margin-top: 4vw;
+        margin-bottom: 5vw;
+        text-shadow: 0.14vw 0.14vw hsl(0 0 10%) ;
+        box-shadow: 
+                -5px 0 0 0 rgb(78, 78, 78),
+                 5px 0 0 0 rgb(140, 140, 140),
+                 0 5px 0 0 rgb(78, 78, 78),
+                 0 -5px 0 0 rgb(140, 140, 140),  
+                -10px 0 0 0 black,
+                 10px 0 0 0 black,
+                 0 -10px 0 0 black,
+                 0 10px 0 0 black,
+                 5px 5px 0 0 black,
+                 -5px 5px 0 0 black,
+                 5px -5px 0 0 black,
+                 -5px -5px 0 0 black;
+                    
     }
     #bd{
         max-width: 1000px;
@@ -193,9 +248,9 @@
         font-style: normal;
         font-size: 6vw;
         position: absolute;
-        left: 60vw;
+        left: 75vw;
         top: 7vw;
-        transform: rotateZ(340deg);
+        transform: translate(-50%, -50%) rotateZ(340deg);
         animation-name: splash;
         animation-duration: 1.5s;
         animation-iteration-count: infinite;

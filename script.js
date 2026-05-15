@@ -1,18 +1,34 @@
-const timer = document.getElementById("smiszne");
-const cel = new Date("2026-06-01T18:00:00").getTime();
-timer.innerHTML = "0:00:00";
-let d = Date.now();
-d = cel-d;
-let min = Math.floor(d/1000/60)%60;
-let godz = Math.floor(d/1000/60/60)%24;
-let dni = Math.floor(d/1000/60/60/24);
-timer.innerHTML = `${dni}d:${godz}h:${min}min`;
-setInterval(() => {
-    d = Date.now();
-    d = cel-d;
-    min = Math.floor(d/1000/60)%60;
-    godz = Math.floor(d/1000/60/60)%24;
-    dni = Math.floor(d/1000/60/60/24);
-    timer.innerHTML = `${dni}d:${godz}h:${min}min`;
-}, 10000);
-
+const splash = document.getElementById("smiszne");
+let random = Math.floor(Math.random() * 15);
+if (random == 1) {
+    splash.innerHTML = "Dzisiaj jest Twoj szczesliwy dzien!";
+} else if (random == 2) {
+    splash.innerHTML = "Nie zapomnij o urodzinach mamy!";
+} else if (random == 3) {
+    splash.innerHTML = "Pogoda jest dzisiaj super!";
+} else if (random == 4) {
+    splash.innerHTML = "Zjedz cos dobrego!";
+} else if (random == 5) {
+    splash.innerHTML = "Nie zapomnij o piciu wody!";
+} else if (random == 6) {
+    splash.innerHTML = "Dzisiaj jest idealny dzien na spacer!";
+} else if (random == 7) {
+    splash.innerHTML = "Zrob cos kreatywnego dzisiaj!";
+} else if (random == 8) {
+    splash.innerHTML = "Nie zapomnij o swoich marzeniach!";
+} else if (random == 9) {
+    splash.innerHTML = "Dzisiaj jest dzien na relaks!";
+} else if (random == 10) {
+    splash.innerHTML = "Zrob cos dobrego dla innych dzisiaj!";
+} else if (random == 11) {
+    splash.innerHTML = "Nie zapomnij o swoich przyjaciołach!";
+} else if (random == 12) {
+    splash.innerHTML = "Dzisiaj jest dzien na nauke czegos nowego!";
+} else if (random == 13) {
+    splash.innerHTML = "Zrob cos zabawnego dzisiaj!";
+} else if (random == 14) {
+    splash.innerHTML = "Nie zapomnij o swoich pasjach!";
+} else {
+    splash.innerHTML = "Dzisiaj jest dzien na bycie szczesliwym!";
+}
+splash.style.transform = "translate(-50%, -50%) rotateZ(340deg)";
